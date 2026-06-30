@@ -1,0 +1,12 @@
+[package]
+name = "qq-store"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+async-trait.workspace = true
+qq-core = { path = "../qq-core" }
+serde_json.workspace = true
+sqlx.workspace = true
